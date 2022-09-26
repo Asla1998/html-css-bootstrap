@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+}
+.navbar ul.nav{
+    margin-right: 5%;
+
+
+}
+.navbar ul.nav li.active{
+    /* background: #fff; */
+    color: #000;
+}
+
+/* slider */
+
+.carouselExampleIndicators{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+    /* background: #000; */
+    
+
+}
+.image{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+
+.text-block {
+    position: absolute;
+    bottom: 300px;
+    /* right: 20px; */
+    height: 200px;
+    width: 390px;
+    margin-top: 200px;
+    margin-left: 250px;
+    
+    /* background-color: black; */
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+  .btn{
+    background-color: orangered;
+  }
+  .secondslide{
+    background-color: rgba(147, 153, 158, 0.763);
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .container2{
+    margin-top:60px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .textdiv{
+    
+    margin-top: 500px;
+  }
+  .form-group{
+    margin-top: 50px;
+    /* text-align: center; */
+    width: 335px;
+  }
+  .carousel-caption{
+    font-size: 20px;
+  }
+
+  .bgimg{
+    text-align: center;
+    background-image: url(../wildlife/static/leaf.jpg);
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    font-size: 30px;
+    
+    /* margin-left: 100px; */
+    
+    
+    
+  }
+  .imglist{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+  }
+  .navlast{
+    margin-left: 300px;
+    padding-top: 170px;
+    /* word-spacing: 50px; */
+    /* letter-spacing: 10px; */
+    /* margin-top: 50px; */
+  }
